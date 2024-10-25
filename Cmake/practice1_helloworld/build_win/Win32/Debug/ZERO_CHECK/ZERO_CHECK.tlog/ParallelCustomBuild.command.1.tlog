@@ -1,0 +1,10 @@
+^E:\DOCUMENTS\VSCODE\CMAKE\VSCODE\PRACTICE1_HELLOWORLD\BUILD\CMAKEFILES\B6EA28C2EE23F122F7F6681B860A5491\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Documents/VScode/Cmake/VScode/practice1_helloworld -BE:/Documents/VScode/Cmake/VScode/practice1_helloworld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/hello.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

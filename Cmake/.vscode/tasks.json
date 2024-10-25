@@ -1,0 +1,57 @@
+{
+	// 这里配置了三个Task
+    "tasks": [
+		{
+			"type": "shell",
+			"label": "mk_build",
+			"command": "mkdir",
+			"args": [
+				"build"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "cmake",
+			"command": "cmake",
+			"args": [
+				"-G",
+				"MinGW Makefiles",
+				"${workspaceFolder}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/practice1_helloworld/build"
+			},
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "mingw32-make",
+			"args": [
+				"-j4"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"dependsOn": [
+				"cmake"
+			]
+		}
+	],
+    "version": "2.0.0"
+}

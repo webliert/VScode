@@ -1,0 +1,288 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 10/22/2024 5:10:37 PM。
+      节点 1 上的项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.32
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/3.29.7/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 10/22/2024 5:10:39 PM。
+      节点 1 上的项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\3.29.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/3.29.7/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-v7pbwz"
+      binary: "E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-v7pbwz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-v7pbwz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_94529.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 10/22/2024 5:10:41 PM。
+        节点 1 上的项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7pbwz\\cmTC_94529.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_94529.dir\\Debug\\”。
+          正在创建目录“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7pbwz\\Debug\\”。
+          正在创建目录“cmTC_94529.dir\\Debug\\cmTC_94529.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_94529.dir\\Debug\\cmTC_94529.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94529.dir\\Debug\\\\" /Fd"cmTC_94529.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94529.dir\\Debug\\\\" /Fd"cmTC_94529.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7pbwz\\Debug\\cmTC_94529.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-v7pbwz/Debug/cmTC_94529.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-v7pbwz/Debug/cmTC_94529.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_94529.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_94529.vcxproj -> E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7pbwz\\Debug\\cmTC_94529.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_94529.dir\\Debug\\cmTC_94529.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_94529.dir\\Debug\\cmTC_94529.tlog\\cmTC_94529.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v7pbwz\\cmTC_94529.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27051.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-vwhsfv"
+      binary: "E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-vwhsfv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-vwhsfv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_79532.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 10/22/2024 5:10:43 PM。
+        节点 1 上的项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwhsfv\\cmTC_79532.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_79532.dir\\Debug\\”。
+          正在创建目录“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwhsfv\\Debug\\”。
+          正在创建目录“cmTC_79532.dir\\Debug\\cmTC_79532.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_79532.dir\\Debug\\cmTC_79532.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79532.dir\\Debug\\\\" /Fd"cmTC_79532.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79532.dir\\Debug\\\\" /Fd"cmTC_79532.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwhsfv\\Debug\\cmTC_79532.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-vwhsfv/Debug/cmTC_79532.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Documents/VScode/Cmake/VScode/practice1_helloworld/build/CMakeFiles/CMakeScratch/TryCompile-vwhsfv/Debug/cmTC_79532.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_79532.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_79532.vcxproj -> E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwhsfv\\Debug\\cmTC_79532.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_79532.dir\\Debug\\cmTC_79532.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_79532.dir\\Debug\\cmTC_79532.tlog\\cmTC_79532.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\Documents\\VScode\\Cmake\\VScode\\practice1_helloworld\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwhsfv\\cmTC_79532.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.07
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27051.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
