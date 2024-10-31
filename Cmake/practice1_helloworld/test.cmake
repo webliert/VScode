@@ -1,1 +1,5 @@
 message("this is a test commant")
+set(VAR "TEST")
+message(${VAR})
+message(${CMAKE_VERSION})
+list(LENGTH 1 2 3)
