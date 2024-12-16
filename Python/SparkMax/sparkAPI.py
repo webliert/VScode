@@ -157,5 +157,5 @@ if __name__ == "__main__":
 		# domain = "4.0Ultra"     # 4.0Ultra 版本
         # domain = "generalv3"    # Pro版本
         # domain = "lite"      # Lite版本址
-        query="给我写一篇500字的作文,以小米创业故事为主题"
+        query="请分析现在中国市面上的大模型的优劣，并给出评分，要求中立且权威"
     )

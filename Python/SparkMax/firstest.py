@@ -21,7 +21,7 @@ if __name__ == '__main__':
     )
     messages = [ChatMessage(
         role="user",
-        content='请介绍一下小米的雷军'
+        content='请分析现在中国市面上的大模型的优劣，并给出评分，要求中立且权威'
     )]
     handler = ChunkPrintHandler()
     a = spark.generate([messages], callbacks=[handler])
