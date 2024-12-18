@@ -134,32 +134,8 @@ class AIPPT():
         }
         return headers
     
-    def getTheme(self):
-        url = "https://zwapi.xfyun.cn/api/ppt/v2/template/list"
-        self.header = self.getHeaders()
-        body = {
-            "payType": "not_free",
-            "style": "简约",    # 支持按照类型查询PPT 模板
-            "color": "蓝色",   #  支持按照颜色查询PPT 模板
-            "industry": "教育培训",    # 支持按照颜色查询PPT 模板
-            "pageNum": 2,
-            "pageSize": 10
-        }
-        response = requests.request("GET", url=url, headers=self.header).text
-        try:
-            resp_json = json.loads(response)
-            if resp_json.get('code') == 0:  # 判断返回结果中的状态码是否为0，表示请求成功
-                template_list = resp_json['data']['list']  # 获取模板列表数据部分
-                # 使用json.dumps进行格式化输出，indent参数设置缩进空格数，让输出更美观易读
-                formatted_output = json.dumps(template_list, indent=4, ensure_ascii=False)
-                return formatted_output
-            else:
-                print(f"获取PPT模板列表失败，错误信息: {resp_json.get('msg')}")
-                return None
-        except json.JSONDecodeError:
-            print("无法解析返回的JSON数据，可能请求出现异常")
-            return None
-'''
+
+
     def getTheme(self):
         url ="https://zwapi.xfyun.cn/api/ppt/v2/template/list"
         self.header = self.getHeaders()
@@ -170,11 +146,13 @@ class AIPPT():
             "industry": "教育培训",    # 支持按照颜色查询PPT 模板
             "pageNum": 2 ,
             "pageSize": 10
-        }
+            }
+        
         response = requests.request("GET", url=url, headers=self.header).text
         print(response)
         return response
-'''
+        return body
+
 
 
 
@@ -187,19 +165,20 @@ if __name__ == '__main__':
     APISecret = "MThkMDFmZmQ1MzNiMDE5YzFjODk3ZDg1"
 
     # 查询PPT主题列表
-    demo1 = AIPPT(APPId,APISecret,'','')
-    templateId = demo1.getTheme()
+    # demo1 = AIPPT(APPId,APISecret,'','')
+    # templateId = demo1.getTheme()
 
     #PPT 主题描述
-    # Text="请帮我写一份PPT： 主题是机器人技术中的伦理问题研究，内容参考我提供给你的文件"
-    # templateId= "20240718489569D"   # 该模板ID，需要通过getTheme() 方法获取模板列表，然后从中挑选
-    # demo = AIPPT(APPId,APISecret,Text,templateId)
+    Text="请帮我写一份PPT： 主题是AGV小车的调度算法汇报，内容参考我提供给你的文件"
+    templateId= "2024071754A6ADE"   # 该模板ID，需要通过getTheme() 方法获取模板列表，然后从中挑选
+    # 2024071800368C7 红色商务 20240718489569D-黄色科技 202407176CA9161- 黄色科技？不是蓝色学院 20240718822FE12-红色商务 2024071754A6ADE-未测试
+    demo = AIPPT(APPId,APISecret,Text,templateId)
 
 
-    # result = demo1.get_result()
-    template_list_result = demo1.getTheme()
-    # print("生成的PPT请从此地址获取：\n" + result)
-    print("PPT主题列表：\n" + template_list_result)
+    result = demo.get_result()
+    # result = demo1.getTheme()
+    print("生成的PPT请从此地址获取：\n" + result)
+    # print("PPT主题列表：\n" + result)
 
 
 
